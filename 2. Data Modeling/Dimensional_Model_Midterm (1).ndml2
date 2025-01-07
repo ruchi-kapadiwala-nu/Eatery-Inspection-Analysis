@@ -1,0 +1,1321 @@
+{
+  "paper": {
+    "name": "A4",
+    "leftMargin": 0.5,
+    "rightMargin": 0.5,
+    "topMargin": 0.5,
+    "bottomMargin": 0.5,
+    "isPortriat": true
+  },
+  "modelVersion": 2.01,
+  "defaultSchema": "default",
+  "server": {
+    "objectType": "Server_LOGICAL",
+    "name": "Default",
+    "schemas": [
+      {
+        "objectType": "Schema_LOGICAL",
+        "name": "default",
+        "tables": [
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "fact_Inspection",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Inspection_ID",
+                "type": "INTEGER",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Inspection_ID"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Inspection_Type_Dallas",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Inspection_Type_Dallas"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Inspection_results",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Inspection_results"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Inspection_Type_Chicago",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Inspection_Type_Chicago"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Risk",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Risk"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Total_Violation_Score",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Total_Violation_Score"
+              }
+            ],
+            "foreignKeys": [],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "Inspection_ID"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "dim_Facility",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "FID",
+                "type": "INTEGER",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "FID"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Restaurant_Name",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Restaurant_Name"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DBA Name",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DBA Name"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "AKA Name",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "AKA Name"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "License #",
+                "type": "INTEGER",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "License #"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Facility_Type_Chicago",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Facility_Type_Chicago"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Facility_Type_Dallas",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Facility_Type_Dallas"
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_dim_Facility_fact_Inspection_1",
+                "fields": [
+                  "FID"
+                ],
+                "referencedSchema": "default",
+                "referencedTable": "fact_Inspection",
+                "referencedFields": [
+                  "Inspection_Type_Chicago"
+                ],
+                "sourceCardinality": "NoneRelationship",
+                "targetCardinality": "OneOrManyRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "FID"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "dim_Address",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Location_ID",
+                "type": "INTEGER",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Location_ID"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Address",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Address"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Longitude",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Longitude"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Latitude",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Latitude"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Location",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Location"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "ZipCode",
+                "type": "INTEGER",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "ZipCode"
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_dim_Address_fact_Inspection_1",
+                "fields": [
+                  "Location_ID"
+                ],
+                "referencedSchema": "default",
+                "referencedTable": "fact_Inspection",
+                "referencedFields": [
+                  "Total_Violation_Score"
+                ],
+                "sourceCardinality": "NoneRelationship",
+                "targetCardinality": "OneOrManyRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "Location_ID"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "dimFacility",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "f1",
+                "type": "INT",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "f1"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Facility_Name",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Facility_Name"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "AKA_Name",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "AKA_Name"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "License #",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "License #"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Facility_Type",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Facility_Type"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_WorkflowFileName\n",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_WorkflowFileName\n"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_CreateDate",
+                "type": "DATE",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_CreateDate"
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_dimFacility_factInspection_1",
+                "fields": [
+                  "f1"
+                ],
+                "referencedSchema": "default",
+                "referencedTable": "factInspection",
+                "referencedFields": [
+                  " f1"
+                ],
+                "sourceCardinality": "NoneRelationship",
+                "targetCardinality": "OneOrManyRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "f1"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "dimDate",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "d1",
+                "type": "INT",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "d1"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Inspection_Date",
+                "type": "DATE",
+                "length": 0,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Inspection_Date"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Inspection_Month",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Inspection_Month"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Inspection_Year",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Inspection_Year"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Inspection_Day",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Inspection_Day"
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_dimDate_factInspection_1",
+                "fields": [
+                  "d1"
+                ],
+                "referencedSchema": "default",
+                "referencedTable": "factInspection",
+                "referencedFields": [
+                  "d1"
+                ],
+                "sourceCardinality": "NoneRelationship",
+                "targetCardinality": "OneOrManyRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "d1"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "factInspection",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "i1",
+                "type": "INT",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "i1"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "d1",
+                "type": "INT",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "d1"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "a1",
+                "type": "INT",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "a1"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": " f1",
+                "type": "INT",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": " f1"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "v1",
+                "type": "INT",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "v1"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "dv1",
+                "type": "INT",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "dv1"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Inspection_ID",
+                "type": "INTEGER",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Inspection_ID"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Inspection_Type",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Inspection_Type"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Results",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Results"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Risk",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Risk"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Total_Violation_Score",
+                "type": "INT",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Total_Violation_Score"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Inspection_Results",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Inspection_Results"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_WorkflowFileName",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_WorkflowFileName"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_CreateDate",
+                "type": "DATE",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_CreateDate"
+              }
+            ],
+            "foreignKeys": [],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "i1"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "dimViolations",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "dv1",
+                "type": "INT",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "dv1"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "code",
+                "type": "INT",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "code"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "violation_description",
+                "type": "INT",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "violation_description"
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_dimViolations_factViolation_1",
+                "fields": [
+                  "dv1"
+                ],
+                "referencedSchema": "default",
+                "referencedTable": "factViolation",
+                "referencedFields": [
+                  "violation_count"
+                ],
+                "sourceCardinality": "NoneRelationship",
+                "targetCardinality": "NoneRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "code"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "dimAddress",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "a1",
+                "type": "INT",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "a1"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Address",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Address"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Latitude",
+                "type": "DECIMAL",
+                "length": 255,
+                "decimals": 2,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Latitude"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Longitude",
+                "type": "DECIMAL",
+                "length": 255,
+                "decimals": 2,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Longitude"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "Location",
+                "type": "DECIMAL",
+                "length": 255,
+                "decimals": 2,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "Location"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "State",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "State"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "City",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "City"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_WorkflowFileName",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_WorkflowFileName"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "DI_CreateName",
+                "type": "CHAR VARYING",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "DI_CreateName"
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_dimAddress_factInspection_1",
+                "fields": [
+                  "a1"
+                ],
+                "referencedSchema": "default",
+                "referencedTable": "factInspection",
+                "referencedFields": [
+                  "a1"
+                ],
+                "sourceCardinality": "NoneRelationship",
+                "targetCardinality": "OneOrManyRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "a1"
+              ],
+              "oldName": ""
+            }
+          },
+          {
+            "objectType": "Table_LOGICAL",
+            "name": "factViolation",
+            "comment": "",
+            "oldName": "",
+            "fields": [
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "fv1",
+                "type": "INT",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": false,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "fv1"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "dv1",
+                "type": "INT",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "dv1"
+              },
+              {
+                "objectType": "TableField_LOGICAL",
+                "name": "violation_count",
+                "type": "INT",
+                "length": 255,
+                "decimals": 0,
+                "isNullable": true,
+                "defaultType": "None",
+                "defaultValue": "",
+                "comment": "",
+                "oldName": "violation_count"
+              }
+            ],
+            "foreignKeys": [
+              {
+                "objectType": "ForeignKey_LOGICAL",
+                "name": "fk_factViolation_factInspection_1",
+                "fields": [
+                  "fv1"
+                ],
+                "referencedSchema": "default",
+                "referencedTable": "factInspection",
+                "referencedFields": [
+                  "v1"
+                ],
+                "sourceCardinality": "NoneRelationship",
+                "targetCardinality": "OneOrManyRelationship",
+                "comment": "",
+                "oldName": ""
+              }
+            ],
+            "indexes": [],
+            "uniques": [],
+            "primaryKey": {
+              "objectType": "PrimaryKey_LOGICAL",
+              "name": "",
+              "fields": [
+                "fv1"
+              ],
+              "oldName": ""
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "diagrams": [
+    {
+      "name": "Diagram 1",
+      "paperWidth": 1,
+      "paperHeight": 1,
+      "tableFont": "Arial Unicode MS",
+      "tableFontSize": 14,
+      "isBalckWhite": false,
+      "showDBSchemaName": false,
+      "showViewRelations": true,
+      "notation": "default",
+      "showFieldComment": false,
+      "showTableComment": false,
+      "shapes": [
+        {
+          "type": "table",
+          "schemaName": "default",
+          "tableName": "dimViolations",
+          "x": 40,
+          "y": 370,
+          "width": 181,
+          "height": 114,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "default",
+          "tableName": "dimDate",
+          "x": 450,
+          "y": 630,
+          "width": 238,
+          "height": 156,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "default",
+          "tableName": "dimAddress",
+          "x": 760,
+          "y": 310,
+          "width": 263,
+          "height": 240,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "default",
+          "tableName": "factInspection",
+          "x": 450,
+          "y": 250,
+          "width": 263,
+          "height": 345,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "default",
+          "tableName": "dimFacility",
+          "x": 470,
+          "y": 30,
+          "width": 219,
+          "height": 198,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        },
+        {
+          "type": "table",
+          "schemaName": "default",
+          "tableName": "factViolation",
+          "x": 260,
+          "y": 370,
+          "width": 151,
+          "height": 114,
+          "isBold": false,
+          "titleColor": {
+            "r": 55,
+            "g": 131,
+            "b": 192,
+            "a": 1
+          }
+        }
+      ],
+      "layers": [],
+      "relations": [
+        {
+          "name": "fk_factViolation_factInspection_1",
+          "sourceTableName": "factViolation",
+          "sourceSchemaName": "default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 426,
+              "y": 430
+            },
+            {
+              "x": 435,
+              "y": 430
+            }
+          ],
+          "label": {
+            "x": 416,
+            "y": 391,
+            "width": 213,
+            "height": 31,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_dimViolations_factViolation_1",
+          "sourceTableName": "dimViolations",
+          "sourceSchemaName": "default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 236,
+              "y": 430
+            },
+            {
+              "x": 245,
+              "y": 430
+            }
+          ],
+          "label": {
+            "x": 232,
+            "y": 432,
+            "width": 209,
+            "height": 31,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_dimFacility_factInspection_1",
+          "sourceTableName": "dimFacility",
+          "sourceSchemaName": "default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 580,
+              "y": 243
+            },
+            {
+              "x": 580,
+              "y": 235
+            }
+          ],
+          "label": {
+            "x": 582,
+            "y": 192,
+            "width": 203,
+            "height": 31,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_dimAddress_factInspection_1",
+          "sourceTableName": "dimAddress",
+          "sourceSchemaName": "default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 745,
+              "y": 430
+            },
+            {
+              "x": 728,
+              "y": 430
+            }
+          ],
+          "label": {
+            "x": 755,
+            "y": 391,
+            "width": 211,
+            "height": 31,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        },
+        {
+          "name": "fk_dimDate_factInspection_1",
+          "sourceTableName": "dimDate",
+          "sourceSchemaName": "default",
+          "lineWidth": 1,
+          "visible": true,
+          "vertices": [
+            {
+              "x": 580,
+              "y": 615
+            },
+            {
+              "x": 580,
+              "y": 610
+            }
+          ],
+          "label": {
+            "x": 582,
+            "y": 584,
+            "width": 189,
+            "height": 31,
+            "fontName": "Arial Unicode MS",
+            "fontSize": 14,
+            "fontColor": {
+              "r": 51,
+              "g": 51,
+              "b": 51,
+              "a": 1
+            },
+            "isFontBold": false,
+            "isFontItalic": false,
+            "isVisible": false
+          }
+        }
+      ],
+      "viewRelations": []
+    }
+  ]
+}

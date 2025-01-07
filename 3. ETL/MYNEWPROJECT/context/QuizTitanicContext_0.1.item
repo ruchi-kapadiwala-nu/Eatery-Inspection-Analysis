@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_oh1nYMoEEe6kcJhQpWfaiw">
+    <contextParameter comment="" name="QuizTitanic_Database" prompt="QuizTitanic_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="spl" xmi:id="_oh1nYcoEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_Server" prompt="QuizTitanic_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_oh1nYsoEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_Login" prompt="QuizTitanic_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_oh1nY8oEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_Password" prompt="QuizTitanic_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:NwDNmoNlEVzk9cSRQrg57ZJ7fynO/8zlmOsmHQrJtBG7rJNjDA==" xmi:id="_oh1nZMoEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_Port" prompt="QuizTitanic_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_oh1nZcoEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_AdditionalParams" prompt="QuizTitanic_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_oh1nZsoEEe6kcJhQpWfaiw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Dev" xmi:id="_oh1nZ8oEEe6kcJhQpWfaiw">
+    <contextParameter comment="" name="QuizTitanic_Database" prompt="QuizTitanic_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="spl" xmi:id="_oh1naMoEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_Server" prompt="QuizTitanic_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_oh1nacoEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_Login" prompt="QuizTitanic_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_oh1nasoEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_Password" prompt="QuizTitanic_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:1S9ypZk1F7ByFw0WZYhS/eRId0SsIXKngWoxl2+ca3WiksdGjA==" xmi:id="_oh1na8oEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_Port" prompt="QuizTitanic_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_oh1nbMoEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_AdditionalParams" prompt="QuizTitanic_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_oh1nbcoEEe6kcJhQpWfaiw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Prod" xmi:id="_oh1nbsoEEe6kcJhQpWfaiw">
+    <contextParameter comment="" name="QuizTitanic_Database" prompt="QuizTitanic_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="spl" xmi:id="_oh1nb8oEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_Server" prompt="QuizTitanic_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_oh1ncMoEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_Login" prompt="QuizTitanic_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_oh1nccoEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_Password" prompt="QuizTitanic_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:bWOR2ggWRN0SZbpF3KCMPoFAcgJdVACj9NnMTktOkYjm4kufEw==" xmi:id="_oh1ncsoEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_Port" prompt="QuizTitanic_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_oh1nc8oEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_AdditionalParams" prompt="QuizTitanic_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_oh1ndMoEEe6kcJhQpWfaiw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Test" xmi:id="_oh1ndcoEEe6kcJhQpWfaiw">
+    <contextParameter comment="" name="QuizTitanic_Database" prompt="QuizTitanic_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="spl" xmi:id="_oh1ndsoEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_Server" prompt="QuizTitanic_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_oh1nd8oEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_Login" prompt="QuizTitanic_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_oh1neMoEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_Password" prompt="QuizTitanic_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:Jsetmf7TRsutOMqX9/kc5UdaSO6bYNU0qH/sgqUszPii/ay4jw==" xmi:id="_oh1necoEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_Port" prompt="QuizTitanic_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_oh1nesoEEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="QuizTitanic_AdditionalParams" prompt="QuizTitanic_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_oh1ne8oEEe6kcJhQpWfaiw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_2ff338cc-f0a1-4733-a6ee-5f9b2d5e721f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>SBvXfEqnsAREPwUHFHFemfViMimiDBUhyR2CRzEEavexOV8s8bCzGacxEkC7In2q8S8IMqrOwkrA&#13;
+ncDBD5HIMA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_dc0dbdc6-4fb4-4346-bb46-843c9fcdf9bb"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>gTwYL60MH5R+eLhYVW+3HFZIim6kdE7aXt4HmCMJur3YTZB8OCnBw5PW3GQrwqClRj3yVSc6jSvU&#13;
+9bG8QFczkg==</DigestValue></Reference></SignedInfo><SignatureValue>mi2llKv2bRWju8pYzxMdUgrYVz1PAIhNRmZVxEW28BAwGV5wGinuvtY4fl8RPUhot9J89bLZhyzk&#13;
+FcZdoCMfAWfiCsFxWKY7i0QxbTmMhZLZ+1sak4mS5c2pm2fJ+JFdW36xY+A3/9cBXdCcRTnxGSJ9&#13;
+Ep9UcP1XutKSKlpx15pBrlI7RzyviGbAKoD1J7jDem3jJXDgSNyH6t8cIgqv9XizK3/X+rt+WzeK&#13;
+xBThlcFXgDHALLAYKs5YMfYadV3mB9hEg9aB50RAZQYPoRZ9J9nkRgxaDQ+5l1QLBWQnabkVWfg3&#13;
+OBKIgKXOx6Sfpbu+yTDepO1nOYTBeKufYBnyIA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_dc0dbdc6-4fb4-4346-bb46-843c9fcdf9bb" Target="#_2ff338cc-f0a1-4733-a6ee-5f9b2d5e721f"><Timestamp>2024-02-13 00:12:54</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

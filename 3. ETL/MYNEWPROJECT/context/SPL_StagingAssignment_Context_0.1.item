@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_ZHrxEMoFEe6kcJhQpWfaiw">
+    <contextParameter comment="" name="SPL_StagingAssignment_Database" prompt="SPL_StagingAssignment_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="spl" xmi:id="_ZHrxEcoFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_Server" prompt="SPL_StagingAssignment_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_ZHrxEsoFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_Login" prompt="SPL_StagingAssignment_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_ZHrxE8oFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_Password" prompt="SPL_StagingAssignment_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:YdrdYhn1Y10lBy32ySX6RpV3K4caugY01pFVxCT9YAZrlu75+g==" xmi:id="_ZHrxFMoFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_Port" prompt="SPL_StagingAssignment_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_ZHrxFcoFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_AdditionalParams" prompt="SPL_StagingAssignment_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_ZHrxFsoFEe6kcJhQpWfaiw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Dev" xmi:id="_ZHrxF8oFEe6kcJhQpWfaiw">
+    <contextParameter comment="" name="SPL_StagingAssignment_Database" prompt="SPL_StagingAssignment_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="spl" xmi:id="_ZHrxGMoFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_Server" prompt="SPL_StagingAssignment_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_ZHrxGcoFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_Login" prompt="SPL_StagingAssignment_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_ZHrxGsoFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_Password" prompt="SPL_StagingAssignment_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:83JW4mni4muC053rjirMwN9OhRaTNN8AcfouLXY09SBK6nbdRg==" xmi:id="_ZHrxG8oFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_Port" prompt="SPL_StagingAssignment_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_ZHrxHMoFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_AdditionalParams" prompt="SPL_StagingAssignment_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_ZHrxHcoFEe6kcJhQpWfaiw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Prod" xmi:id="_ZHrxHsoFEe6kcJhQpWfaiw">
+    <contextParameter comment="" name="SPL_StagingAssignment_Database" prompt="SPL_StagingAssignment_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="spl" xmi:id="_ZHrxH8oFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_Server" prompt="SPL_StagingAssignment_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_ZHrxIMoFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_Login" prompt="SPL_StagingAssignment_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_ZHrxIcoFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_Password" prompt="SPL_StagingAssignment_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:UjHAfpeRh9UdjN//oMls21dwbJMDvW0yeDMFTnKeYoObry4KNA==" xmi:id="_ZHrxIsoFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_Port" prompt="SPL_StagingAssignment_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_ZHrxI8oFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_AdditionalParams" prompt="SPL_StagingAssignment_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_ZHrxJMoFEe6kcJhQpWfaiw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Test" xmi:id="_ZHrxJcoFEe6kcJhQpWfaiw">
+    <contextParameter comment="" name="SPL_StagingAssignment_Database" prompt="SPL_StagingAssignment_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="spl" xmi:id="_ZHrxJsoFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_Server" prompt="SPL_StagingAssignment_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_ZHrxJ8oFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_Login" prompt="SPL_StagingAssignment_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_ZHrxKMoFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_Password" prompt="SPL_StagingAssignment_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:6p+0H+qhPSnSqRHM4tDMuhYnR/xpDNi/NCFrHRLBnBUhkipIXA==" xmi:id="_ZHrxKcoFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_Port" prompt="SPL_StagingAssignment_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_ZHrxKsoFEe6kcJhQpWfaiw"/>
+    <contextParameter comment="" name="SPL_StagingAssignment_AdditionalParams" prompt="SPL_StagingAssignment_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_ZHrxK8oFEe6kcJhQpWfaiw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_fdc8e3ce-96fc-4b74-8818-8845da714022"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>316aSq3YHThSOPLwRLrVi4fKj0ZUnrugTB1Nh3bhycvrm3SD5wVsRdGjzeIPrduHT2RFcCJUL+eO&#13;
+ebawwH1YeA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f5f9b1d1-4772-4409-8a6d-510691272086"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>E5pS5OZC7tK1+Yk0QOLrQDgCfbq9FhMFNH2vJwyR/u08KqOLSOd9yBMh0lnRUkVQOaS8lFQ36HP8&#13;
+Pp7Ze/DKbg==</DigestValue></Reference></SignedInfo><SignatureValue>hngneB/7AVXLdwyFlaMa8+ac99b+7JzWSs2jhCv2b50iA8W+o6v/EM6lJnOGCghZuItcTs1GCTBU&#13;
+HXlwqrhxkihFFfijxLTAkTGtEhL8Ra4tRgPFJPrdEayclaZsl8RqX+OQKLZrIdqzPc5acfx5SqaR&#13;
+zZVm1X7KlHJTAQlsVc9g1JNWPswcDAIcyw6RtuSJVZAXfQdvtQFHCwjywq0acAjMoqYlD1K9RdJS&#13;
+lFphK5BSWaeDXxQ4zGAz4PJIyg8gk+LSEODsnFjBKDXfVA5/zSOW0EGgIJhnreozgxIVhuIqVZ8k&#13;
+1UFv6rdxEr9ZMu0IQbEROznlL2c9gT17vvV98g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f5f9b1d1-4772-4409-8a6d-510691272086" Target="#_fdc8e3ce-96fc-4b74-8818-8845da714022"><Timestamp>2024-02-13 00:18:20</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

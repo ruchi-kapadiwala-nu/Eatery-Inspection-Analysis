@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_DNv_INBBEe6XW9dBztzdeg">
+    <contextParameter comment="" name="dallas_Encoding" prompt="dallas_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_DNv_IdBBEe6XW9dBztzdeg"/>
+    <contextParameter comment="" name="dallas_RowSeparator" prompt="dallas_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_DNv_ItBBEe6XW9dBztzdeg"/>
+    <contextParameter comment="" name="dallas_FieldSeparator" prompt="dallas_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_DNv_I9BBEe6XW9dBztzdeg"/>
+    <contextParameter comment="" name="dallas_File" prompt="dallas_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/ruchi/Downloads/Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240220.tsv" xmi:id="_DNv_JNBBEe6XW9dBztzdeg"/>
+    <contextParameter comment="" name="dallas_Header" prompt="dallas_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_DNv_JdBBEe6XW9dBztzdeg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Dev" xmi:id="_DNv_JtBBEe6XW9dBztzdeg">
+    <contextParameter comment="" name="dallas_Encoding" prompt="dallas_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_DNv_J9BBEe6XW9dBztzdeg"/>
+    <contextParameter comment="" name="dallas_RowSeparator" prompt="dallas_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_DNv_KNBBEe6XW9dBztzdeg"/>
+    <contextParameter comment="" name="dallas_FieldSeparator" prompt="dallas_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_DNv_KdBBEe6XW9dBztzdeg"/>
+    <contextParameter comment="" name="dallas_File" prompt="dallas_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/ruchi/Downloads/Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240220.tsv" xmi:id="_DNv_KtBBEe6XW9dBztzdeg"/>
+    <contextParameter comment="" name="dallas_Header" prompt="dallas_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_DNv_K9BBEe6XW9dBztzdeg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Prod" xmi:id="_DNv_LNBBEe6XW9dBztzdeg">
+    <contextParameter comment="" name="dallas_Encoding" prompt="dallas_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_DNv_LdBBEe6XW9dBztzdeg"/>
+    <contextParameter comment="" name="dallas_RowSeparator" prompt="dallas_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_DNv_LtBBEe6XW9dBztzdeg"/>
+    <contextParameter comment="" name="dallas_FieldSeparator" prompt="dallas_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_DNv_L9BBEe6XW9dBztzdeg"/>
+    <contextParameter comment="" name="dallas_File" prompt="dallas_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/ruchi/Downloads/Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240220.tsv" xmi:id="_DNv_MNBBEe6XW9dBztzdeg"/>
+    <contextParameter comment="" name="dallas_Header" prompt="dallas_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_DNv_MdBBEe6XW9dBztzdeg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Test" xmi:id="_DNv_MtBBEe6XW9dBztzdeg">
+    <contextParameter comment="" name="dallas_Encoding" prompt="dallas_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_DNv_M9BBEe6XW9dBztzdeg"/>
+    <contextParameter comment="" name="dallas_RowSeparator" prompt="dallas_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_DNv_NNBBEe6XW9dBztzdeg"/>
+    <contextParameter comment="" name="dallas_FieldSeparator" prompt="dallas_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_DNv_NdBBEe6XW9dBztzdeg"/>
+    <contextParameter comment="" name="dallas_File" prompt="dallas_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/ruchi/Downloads/Restaurant_and_Food_Establishment_Inspections__October_2016_to_Present__20240220.tsv" xmi:id="_DNv_NtBBEe6XW9dBztzdeg"/>
+    <contextParameter comment="" name="dallas_Header" prompt="dallas_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_DNv_N9BBEe6XW9dBztzdeg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_37ba0607-02d6-442a-adcc-2d407285e65b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>klp9VG0ALN7E51cBVfARsV0uoC+OzVP+LTK459LrD/HAiMvyOnxvqWpg6T2f58/IjYqhpDRNlkwM&#13;
+QzOlDjRYQQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_13858aa9-2741-4e16-8d14-85987ec5d4e8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GhzzXRNGU9wgmeaUPvApXLlKZePT1uXO7g6Tqs4r12m0joYCQfx/HnLCVCbXtlKi9VS5ahJ5S8Ka&#13;
++XtErtzR7w==</DigestValue></Reference></SignedInfo><SignatureValue>gBSnTSihvA65nXjWuFShQaYdafrG9mwXWraDr5LCD8UcGyAK9Dx0tKPxKgwd2n6ZKDq4ONLoLaUd&#13;
+94zZCEl3iUHiHicV3K/yKKFqOLsa21MdVTs714Fy9+/5Apg3tEPnmF6eBizCz2zF24UDqOMqkrZ0&#13;
+vPJO1smtKqckLH6SUy05Yk8Q8enVSA5cZSOil/E1DqSo45rMO7USoIlycLP3b6ZEgQTWNp8j27C0&#13;
+2lAfdqz2jQpWOhaROwRv52PiaU7FGAc3z1v2wXpC7Fn0iWKAOT6VSsxa+3j+4ELHIoXvT0mpo3w4&#13;
+RSYVu5BnxTF5FQm+yakunuRteL97FfSKSyin7g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_13858aa9-2741-4e16-8d14-85987ec5d4e8" Target="#_37ba0607-02d6-442a-adcc-2d407285e65b"><Timestamp>2024-02-20 22:40:30</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_mUU4IcSMEe69n5OuZQT2Zw" label="mynewproject" description="" language="java" technicalLabel="MYNEWPROJECT" local="true" author="_mVZPIMSMEe69n5OuZQT2Zw" productVersion="Talend Cloud Data Fabric-8.0.1.20231017_1026-patch" type="DQ" itemsRelationVersion="1.3">
+    <migrationTask xmi:id="_mWT1IMSMEe69n5OuZQT2Zw" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_mVZPIMSMEe69n5OuZQT2Zw" login="kapadiwala.r@northeastern.edu" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>

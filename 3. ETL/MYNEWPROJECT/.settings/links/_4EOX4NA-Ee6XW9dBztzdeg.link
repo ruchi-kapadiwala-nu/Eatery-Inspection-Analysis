@@ -1,0 +1,23 @@
+{
+  "itemId" : "_4EOX4NA-Ee6XW9dBztzdeg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_DNb2ENBBEe6XW9dBztzdeg",
+    "parameterList" : [ {
+      "id" : "_DNv_IdBBEe6XW9dBztzdeg",
+      "name" : "dallas_Encoding"
+    }, {
+      "id" : "_DNv_ItBBEe6XW9dBztzdeg",
+      "name" : "dallas_RowSeparator"
+    }, {
+      "id" : "_DNv_I9BBEe6XW9dBztzdeg",
+      "name" : "dallas_FieldSeparator"
+    }, {
+      "id" : "_DNv_JNBBEe6XW9dBztzdeg",
+      "name" : "dallas_File"
+    }, {
+      "id" : "_DNv_JdBBEe6XW9dBztzdeg",
+      "name" : "dallas_Header"
+    } ]
+  } ]
+}

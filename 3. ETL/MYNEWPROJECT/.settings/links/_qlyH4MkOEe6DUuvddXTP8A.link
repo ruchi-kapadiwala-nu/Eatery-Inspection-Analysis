@@ -1,0 +1,92 @@
+{
+  "itemId" : "_qlyH4MkOEe6DUuvddXTP8A",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_ZHYPEMoFEe6kcJhQpWfaiw",
+    "parameterList" : [ {
+      "id" : "_ZHrxFsoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_AdditionalParams"
+    }, {
+      "id" : "_ZHrxEcoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Database"
+    }, {
+      "id" : "_ZHrxE8oFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Login"
+    }, {
+      "id" : "_ZHrxFMoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Password"
+    }, {
+      "id" : "_ZHrxFcoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Port"
+    }, {
+      "id" : "_ZHrxEsoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Server"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_ZHYPEMoFEe6kcJhQpWfaiw",
+    "parameterList" : [ {
+      "id" : "_ZHrxHcoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_AdditionalParams"
+    }, {
+      "id" : "_ZHrxGMoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Database"
+    }, {
+      "id" : "_ZHrxGsoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Login"
+    }, {
+      "id" : "_ZHrxG8oFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Password"
+    }, {
+      "id" : "_ZHrxHMoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Port"
+    }, {
+      "id" : "_ZHrxGcoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Server"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_ZHYPEMoFEe6kcJhQpWfaiw",
+    "parameterList" : [ {
+      "id" : "_ZHrxJMoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_AdditionalParams"
+    }, {
+      "id" : "_ZHrxH8oFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Database"
+    }, {
+      "id" : "_ZHrxIcoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Login"
+    }, {
+      "id" : "_ZHrxIsoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Password"
+    }, {
+      "id" : "_ZHrxI8oFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Port"
+    }, {
+      "id" : "_ZHrxIMoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Server"
+    } ]
+  }, {
+    "contextName" : "test",
+    "repoId" : "_ZHYPEMoFEe6kcJhQpWfaiw",
+    "parameterList" : [ {
+      "id" : "_ZHrxK8oFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_AdditionalParams"
+    }, {
+      "id" : "_ZHrxJsoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Database"
+    }, {
+      "id" : "_ZHrxKMoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Login"
+    }, {
+      "id" : "_ZHrxKcoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Password"
+    }, {
+      "id" : "_ZHrxKsoFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Port"
+    }, {
+      "id" : "_ZHrxJ8oFEe6kcJhQpWfaiw",
+      "name" : "SPL_StagingAssignment_Server"
+    } ]
+  } ]
+}
